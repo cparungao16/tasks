@@ -1,9 +1,11 @@
 import React from "react";
+import Button from "./Button";
 
 function Header({ name }) {
 	return (
-		<header>
-			<h1>Hello {name}</h1>
+		<header className='header'>
+			<h1>{name}'s Tasks</h1>
+			<Button color='black' />
 		</header>
 	);
 }
